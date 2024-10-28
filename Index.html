@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Desesperanza</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="./validar.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="menu-container">
+            <h2>La DesEsperanza</h2>
+            <ul>
+                <li><a href="#Muerto">Dia de muertos</a></li>
+                <li><a href="#Panes">Pan dulce</a></li>
+            </ul>
+        </div>
+        <div class="header-container">
+            <h1 >La Des Esperanza</h1>
+            <p>La mejor panaderia de todo México</p>
+        </div>
+    </header>
+    <form method="get" name="resgistro" onsubmit="return validar(this)" action="index.html">
+<section class="muerto">
+   <h3 class="tem" id="Muerto">Elige nuestra Pan de Temporada!!!!   </h3>
+   <div class="PMI">
+   <img src="Imagenes/Ecommerce_Producto_Chispas_300x.avif" alt="">
+   <div class="texto">
+   <h3>Pan de Muerto con <br>Chispas de Chocolate</h3>
+   <p>¿Cuantas unidades va a querer?</p>
+   <input class="CP" type="text" name="CP" id="CP">
+   <p>$35</p>
+    </div>
+   <img src="Imagenes/pandemuerto_naranja_300x.avif" alt="">
+   <div class="texto1">
+   <h3>Pan de muerto de naranja</h3>
+   <p>¿Cuantas unidades va a querer?</p>
+   <input class="N" type="text" name="N" id="N">
+   <p>$35</p>
+    </div>
+    </div>
+</section>
+<section class="normal">
+    <h3 class="PO" id="Panes">Panes ordinarios</h3>
+<div class="P2">
+<div class="dn">
+    <img src="Imagenes/dona_01.jpg" alt="">
+    <h3>Dona de Chocolate</h3>
+   <p>¿Cuantas unidades va a querer?</p>
+   <input class="DC" type="text" name="DC" id="DC">
+   <p>$20</p>
+</div>
+<div class="ot">
+    <img src="Imagenes/concha-vainilla_1024x1024.webp" alt="">
+    <h3>Concha</h3>
+   <p>¿Cuantas unidades va a querer?</p>
+   <input class="cn" type="text" name="cn" id="cn">
+   <p>$15</p>
+</div>
+</div>
+<div class="P3">
+    <div class="or">
+        <img src="Imagenes/file.jpg" alt="">
+        <h3>Oreja de azucar</h3>
+       <p>¿Cuantas unidades va a querer?</p>
+       <input class="Muer" type="text" name="Muer" id="Muer">
+       <p>$15</p>
+    </div>
+    <div class="ba">
+        <img src="Imagenes/215031.jpg" alt="">
+        <h3>Baguette</h3>
+       <p>¿Cuantas unidades va a querer?</p>
+       <input class="bg" type="text" name="bg" id="bg">
+       <p>$12</p>
+    </div>
+    </div>
+</section>
+<div class="boton">
+<input class="Tod" type="submit" name="Tod" id="Tod">
+<input class="Res" type="reset" name="Res" id="Res">
+</div>
+</form>
+
+</body>
+</html>
